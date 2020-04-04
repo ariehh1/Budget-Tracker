@@ -3,10 +3,11 @@ console.log("Hello from your friendly neighborhood service worker!");
 const FILES_TO_CACHE = [
   `/`,
   `/index.html`,
-  `/manifest.webmanifest`,
-  `/style.css`,
   `/db.js`,
-  `/index.js`
+  `/index.js`,
+  `/manifest.webmanifest`,
+  `/assets/icons/moneyicon192x192.png`,
+  `/style.css`
 ];
 
 const CACHE_NAME = `static-cache-v2`;
