@@ -1,3 +1,5 @@
+"use strict";
+
 console.log("Hello from your friendly neighborhood service worker!");
 
 const FILES_TO_CACHE = [
@@ -10,7 +12,7 @@ const FILES_TO_CACHE = [
   `/style.css`
 ];
 
-const CACHE_NAME = `static-cache-v2`;
+const CACHE_NAME = `static-cache-v1`;
 const DATA_CACHE_NAME = `data-cache-v1`;
 
 // Install
@@ -65,17 +67,11 @@ self.addEventListener(`fetch`, evt => {
         )
         .catch(err => console.log(err))
     );
-
-    return;
+  } else {
+    event.respondWith(
+      caches
+        .match(event.request)
+        .then(response => response || fetch(event.request))
+    );
   }
-
-  evt.respondWith(
-    caches
-      .open(CACHE_NAME)
-      .then(cache =>
-        cache
-          .match(evt.request)
-          .then(response => response || fetch(evt.request))
-      )
-  );
 });
