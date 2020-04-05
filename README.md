@@ -1,4 +1,4 @@
-# Budget-Tracker
+# [Budget-Tracker](https://aqueous-eyrie-65339.herokuapp.com/)
 
 In this repository, I have built a Budget Tracker application utilizing IndexedDb. The main focus of this unit was Progressive Web Applications (PWA's) and this application allows for online/offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
@@ -28,11 +28,13 @@ Giving users a fast and easy way to track their money is important, but allowing
 
 <h1>Demo of Application:</h1>
 Please watch the below link for a demo of the Budget Tracker:
+https://drive.google.com/file/d/13H7qSRf__kj8hj5s_3P1Cnh86qXZ3yGH/view
 
 <h1>Future Development:</h1>
 If I were to continue developing this application further, I would start building in functionality around app security and verification. As budget tracking is sensitive information, there should be measures put in place to verify user input. When the budget falls below a certain threshold for the user, an alert can provide that warning. Also, when the budget increases to a certain threshold for the user, an alert can provide suggestions to start putting that money in savings. A user password before logging into the application would also provide an added layer of security detection.
 
 <h1>Heroku Link:</h1>
+https://aqueous-eyrie-65339.herokuapp.com/
 
 <h1>Contact Me:</h1>
 @ariehh1 - https://github.com/ariehh1
