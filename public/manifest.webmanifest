@@ -10,6 +10,6 @@
   ],
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "start_url": "/",
+  "start_url": "https://aqueous-eyrie-65339.herokuapp.com/",
   "display": "standalone"
 }
