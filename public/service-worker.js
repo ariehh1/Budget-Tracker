@@ -12,8 +12,8 @@ const FILES_TO_CACHE = [
   `/style.css`
 ];
 
-const CACHE_NAME = `static-cache-v14`;
-const DATA_CACHE_NAME = `data-cache-v9`;
+const CACHE_NAME = `static-cache-v1`;
+const DATA_CACHE_NAME = `data-cache-v1`;
 
 // Install
 self.addEventListener(`install`, event => {
