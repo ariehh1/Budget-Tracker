@@ -3,7 +3,7 @@
 const pendingObjectStoreName = `pending`;
 
 // create a new db request for a "budget" database.
-const request = indexedDB.open(`budget`, 2);
+const request = indexedDB.open(`budget`, 1);
 
 request.onupgradeneeded = event => {
   const db = request.result;
