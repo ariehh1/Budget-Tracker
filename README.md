@@ -3,7 +3,7 @@
 In this repository, I have built a Budget Tracker application utilizing IndexedDb. The main focus of this unit was Progressive Web Applications (PWA's) and this application allows for online/offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
 <h1>Overview:</h1>
-In order to develop this application further, I started with the code in our previous Budget Tracker application. This code only consisted of the front end layout, server, and routes for the application. The goal was to develop a service worker (to cache our static assets) and provide a webmanifest (all information stored about the PWA). This application is also installable from your browser just like Google Maps for example.
+In order to develop this application further, I started with the code in our previous Budget Tracker application. This starter code only consisted of the front-end layout, server, and routes for the application. The goal was to develop a service worker (to cache our static assets) and provide a webmanifest (all information stored about the PWA). This application is also installable from your browser just like Google Maps for example.
 
 <h1>User Story:</h1>
 <li>AS AN avid traveller</li>
